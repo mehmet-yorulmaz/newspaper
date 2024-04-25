@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.navbar .navbar-brand {
+    font-size: 2rem;
+    color: #FFD700;
+}
+
+.navbar .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.navbar-nav .nav-link {
+    color: #FFD700;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.form-control {
+    width: 16rem;
+    padding: 1.4rem;
+}
+
+.btn-outline-success {
+    color: #FFD700;
+    background-color: black;
+    border-color: black;
+}
+
+.btn-outline-success:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+#carouselExampleCaptions {
+    width: 70%;
+    margin: auto;
+}
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+  
+.carousel-caption {
+    color: #fff;
+    padding: 2rem;
+}
+
+.carousel-item h2 {
+    font-size: 5rem;
+}
+
+.carousel-item p {
+    font-size: 2.5rem;
+}
+  
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000000;
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+}
+  
+.carousel-control-prev,
+.carousel-control-next {
+    width: 4%;
+}
+
+.home-about {
+    background-color: #000000;
+}
+
+.home-about .box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    width: 120rem;
+    height: 16rem;
+}
+
+.about-img img {
+    height: 16rem;
+    margin-left: 20rem;
+}
+
+.about-text {
+    text-align: center;
+    padding-left: 2rem;
+}
+  
+.about-text h2 {
+    color: #FFD700;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+  
+.about-text p {
+    color: #fff;
+    font-size: 1.9rem;
+}
+
+.card-header {
+    font-size: 4rem;
+    background-color: #000000;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.content:hover img {
+    transform: scale(0.9);
+}
+
+.content p {
+    font-size: 2.4rem;
+}
+
+.btn-custom {
+    background-color: #FFD700;
+    border: none;
+    color: #000;
+    padding: 1.2rem 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0.4rem 0.2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.btn-custom:hover {
+    background-color: #ffd9002d;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+
+.container-LastMunite {
+    margin: 5rem 10rem 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-LastMunite img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.container-LastMunite:hover img {
+    transform: scale(0.9);
+}
+
+.footer-brand {
+    margin-top: 1rem;
+    color: #FFD700;
+    font-size: 5rem;
+}
+
+.footer-brand:hover {
+    color: #fff;
+}
+
+.list-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.list-group a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.list-group a:hover {
+    color: #FFD700;
+}
+
+.social-icons a i {
+    font-size: 5rem;
+    margin: 1rem;
+    color: #FFD700;
+}
+
+.footer-about {
+    color: #fff;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer-end p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footer-end p:hover {
+    color: #FFD700;
+}
+
+.subhead {
+    margin: 5rem 0;
+    color: #FFD700;
+    font-size: 4rem;
+}
